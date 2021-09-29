@@ -1,0 +1,563 @@
+/*Font Start*/
+
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+	font-family: Roboto-Medium;
+	src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face{
+	font-family: Roboto-Light;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face{
+	font-family: Roboto-Bold;
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face{
+	font-family: OpenSans-Bold;
+	src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face{
+	font-family: DancingScript-Bold;
+	src: url(../fonts/DancingScript-Bold.ttf);
+}
+
+/*Font End*/
+
+
+
+/*Header Start*/
+
+.top-menu{
+	padding: 15px 0;
+	background-color: #fef7f6;
+}
+
+.top-menu-left, .top-menu-right{
+	font-family: Roboto-Light;
+	font-weight: 300;
+	font-size: 11px;
+	color: black;
+}
+
+.top-menu-right ul{
+	float: right;
+}
+
+.top-menu-right ul li{
+	margin: 0 13px !important;
+}
+
+.top-menu-right ul a{
+	color: black !important;
+}
+
+.nipro_search .dropdown-toggle::after {
+    display: none;
+}
+
+.page{
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 13px;
+	color: black;
+	text-transform: uppercase;
+}
+
+.page:hover{
+	color: #ff5353 !important;
+}
+
+.main-menu{
+	padding: 15px 0;
+}
+
+.main-menu ul li{
+	margin-right: 20px !important;
+}
+
+.main-menu ul li:last-child{
+	margin-right: 0px !important;
+}
+
+/*.ti-shopping-cart:before {
+    content: "\e60d";
+}
+.ti-heart:before {
+    content: "\e634";
+}*/
+
+.nipro_search i{
+	transition: 0.3s;
+}
+
+.nipro_search i:hover{
+	color: red;
+}
+
+.icon{
+	position: relative;
+    font-size: 18px;
+    padding: 10px 10px 0 10px;
+}
+
+.itemCount {
+    position: absolute;
+    background-color: #ff5353;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+
+/*Header End*/
+
+/*banner start*/
+
+.banner{
+	background-image: url("../images/banner/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.banner-left-col p{
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 16px;
+	color: #565656;
+	text-transform: uppercase;
+}
+
+.banner-left-col h1{
+	margin-bottom: 40px;
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 60px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.call-to-action-btn button {
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 16px;
+	border: none;
+	width: 135px;
+	height: 38px;
+    background-color: #ff5353;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.call-to-action-btn button:hover{
+	background-color: transparent;
+	color:  #ff5353;
+	border: 1px solid #ff5353;
+}
+
+/*banner end*/
+
+/*Feature Prodcut Start*/
+
+.feature-product{
+	padding: 80px 0;
+}
+
+.container-product{
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.title{
+	font-family: Roboto-Bold;
+	font-weight: 700;
+	font-size: 36px;
+	color: black;
+}
+
+.product-title{
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: #888888;
+}
+
+.product-price{
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 18px;
+	color: black;
+}
+
+.start{}
+.start i{
+	font-size: 13px;
+	color: #ff5353;
+}
+
+.feature-prod-overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+
+.feature-prod-overlay i{
+	margin-right: 20px;
+	color: black;
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 50%;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.feature-prod-overlay i:last-child{
+	margin-right: 0px !important;
+}
+
+.feature-prod-overlay i:hover{
+	background-color: #ff5353;
+	color: #fff;
+}
+
+.product-col img{
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.product-col:hover .feature-prod-overlay{
+	height: 25%;
+}
+
+.product-col:hover img{
+	background-color: red !important;
+	opacity: 0.7;
+}
+
+/*Feature Product End*/
+
+/*second-banner start*/
+.second-banner{
+	background-image: url("../images/banner/banner-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.left-second-banner-col h1{
+	font-family: DancingScript-Bold;
+	font-weight: 700;
+	font-size: 100px;
+	color: #2a2a2a;
+}
+
+.left-second-banner-col h2{
+	font-family: Roboto-Light;
+	font-weight: 300;
+	font-size: 42px;
+	color: #4a4a4a;
+}
+
+/*second-banner end*/
+
+/*most-popular Start*/
+.most-popular{
+	padding: 80px 0;
+}
+
+
+.slick-dots{
+	position: relative;
+}
+
+.slick-dots li button:before{
+	color: red;
+	margin-top: 20px;
+	font-size: 15px !important;
+}
+
+.most-pop-product-wrapper{
+
+	margin: 0 10px;
+}
+
+/*most-popular End*/
+
+/*Support Start*/
+
+.support{
+	padding: 50px 0;
+}
+
+.single-support{
+	padding: 25px 0;
+	border: 1px solid #ebeef0;
+	transition: 0.3s;
+	cursor: pointer;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px -2px #dad7d7;
+}
+
+.single-support:hover{
+	box-shadow: 0px 0px 15px 5px #dad7d7;
+	transform: scale(1.05);
+}
+
+.single-support h2{
+	font-family: Roboto-Medium;
+	font-weight: 50;
+	font-size: 17px;
+	color: black;
+}
+.single-support p{
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: #888888;
+}
+
+/*Support End*/
+
+/*Trending Product start*/
+.single-feature{
+	margin-top: 70px;
+}
+
+/*Trending Product End*/
+
+/*Journal Start*/
+.journal{
+	padding: 80px 0;
+}
+
+.red-indicator{
+	margin-bottom: 3px;
+	border-radius: 200px;
+    width: 15px;
+    height: 5px;
+	background-color: #ff5353;
+}
+
+.single-journal .journal-date{
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: #888888;
+}
+
+.single-journal h2{
+	font-family: Roboto-Bold;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 29px;
+	color: black;
+}
+
+.comments p{
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.comments p:hover{
+	color: #ff5353;
+}
+
+.journal-img img{
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.journal-img:hover img{
+	transform: scale(0.95);
+}
+
+.comments a{
+	text-decoration: none;
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: #888888;
+}
+
+/*Journal End*/
+
+/*Follow us start*/
+.follow{
+	padding: 80px 0;
+}
+
+.insta-profile{
+	position: relative;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.overlay-insta{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e16868;
+}
+
+.insta-profile:hover .overlay-insta {
+  opacity: 1;
+}
+
+.icon-insta{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.icon-insta:hover{
+	color: #fff;
+}
+
+/*Follow us end*/
+
+/*Footer start*/
+
+footer{
+	padding: 80px 0 0 0;
+	background-color: #e9e2d8;
+}
+
+.footer-top-col-wrapper h2{
+	font-family: Roboto-Bold;
+	font-weight: 700;
+	font-size: 18px;
+	color: black;
+}
+
+.footer-top-col-wrapper ul li a{
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: #888888;
+}
+
+.footer-all-links li a:hover{
+	color: black;
+}
+
+.mobile-app{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+/*	width: 150px;
+	height: 50px;*/
+	background-color: #fff;
+	transition: 0.3s;
+}
+
+.mobile-app i{
+	color: #ff5353;
+	transition: 0.3s;
+}
+
+.mobile-app:hover{
+	background-color: #ff5353;
+	color: #fff;
+}
+
+.mobile-app:hover i{
+	color: #fff;
+}
+
+.android{
+	padding: 5px 5px;
+}
+
+.apple{
+	padding: 5px 10px;
+}
+
+.apple i{
+	/*margin-left: -8px;*/
+}
+
+.get-it-on{
+	font-size: 13px;
+}
+
+.mobile-icon i{
+	font-size: 25px;
+}
+
+.play-store{
+	font-size: 14px;
+}
+
+.footer-follow-us{
+	font-family: OpenSans-Bold;
+	font-weight: 700;
+	font-size: 16px;
+	color: black;
+}
+
+.footer-social-icon i{
+	color: black;
+	padding: 15px;
+	background-color: #fff;
+	transition: 0.3s;
+}
+
+.footer-social-icon i:hover{
+	color: #fff;
+	background-color: #ff5353;
+}
+
+.footer-bottom {
+	padding: 15px 0;
+}
+
+.footer-bottom p{
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: #888888;
+}
+
+.footer-bottom a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ff5353;
+}
+
+/*Footer End*/

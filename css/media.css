@@ -1,0 +1,302 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+	.title{
+		font-size: 30px;
+	}
+
+	/*header start*/
+
+	/*header end*/
+
+
+	.icon{
+	    padding: 10px;
+	}
+	.navbar-light .navbar-toggler{
+		padding: 0px ;
+	}
+	/*Header end*/
+	/*Banner Start*/
+	.banner{
+		padding-bottom: 20px;
+	}
+	.banner-left-col h1{
+		margin-bottom: 20px;
+		font-size: 30px;
+	}
+
+	/*Banner End*/
+	/*Feature Product Start*/
+	.feature-product{
+		padding: 50px 0;
+	}
+	/*Feature Product End*/
+
+	/*Second Banner Start*/
+	.second-banner{
+		padding-bottom: 20px;
+	}
+	.left-second-banner-col h1{
+		font-size: 60px;
+	}
+
+	.left-second-banner-col h2{
+		font-size: 28px;
+	}
+	.slick-dots li button:before{
+		margin-top: -25px;
+	}
+	/*Second Banner End*/
+	/*Most Pop Start*/
+	.most-popular{
+		padding: 50px 0;
+	}
+	/*Most Pop End*/
+	/*Suppor start*/
+	.support{
+		padding: 20px 0;
+	}
+	/*Support End*/
+	/*Trending Product start*/
+	.single-feature{
+		margin-top: 5px;
+	}
+
+/*Trending Product End*/
+	/*Journal Start*/
+
+	.journal{
+		padding: 30px 0 0px 0;
+	}
+	.comments{
+		margin-bottom: 50px;
+	}
+	/*Journal End*/
+/*Follow us start*/
+
+.follow{
+	padding: 30px 0 20px 0;
+}
+
+/*Follow us end*/
+
+/*Footer Start*/
+footer{
+	padding: 30px 0 0 0;
+}
+.footer-top{
+	text-align: center;
+}
+
+.footer-top-col-wrapper h2{
+	margin-bottom: 0px !important; 
+}
+
+/*Footer END*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	
+	/*Header end*/
+	/*Banner Start*/
+	.banner-left-col h1{
+		font-size: 30px;
+	}
+
+	/*Banner End*/
+	/*Feature Product Start*/
+	.feature-product{
+		padding: 60px 0;
+	}
+	/*Feature Product End*/
+
+	/*Second Banner Start*/
+	.left-second-banner-col h1{
+		font-size: 40px;
+	}
+
+	.left-second-banner-col h2{
+		font-size: 28px;
+	}
+	/*Second Banner End*/
+	/*Most Pop Start*/
+	.most-popular{
+		padding: 60px 0;
+	}
+	/*Most Pop End*/
+	/*Suppor start*/
+	.support{
+		padding: 30px 0;
+	}
+	/*Support End*/
+
+	/*Trending Product start*/
+	.single-feature{
+		margin-top: 40px;
+	}
+
+/*Trending Product End*/
+
+	/*Journal Start*/
+
+	.journal{
+		padding: 40px 0 0px 0;
+	}
+	.comments{
+		margin-bottom: 60px;
+	}
+	/*Journal End*/
+/*Follow us start*/
+
+.follow{
+	padding: 40px 0 30px 0;
+}
+
+/*Follow us end*/
+/*Foooter Start*/
+footer{
+	padding: 40px 0 0 0;
+}
+/*Footer End*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+
+	/*Header end*/
+
+	/*Banner Start*/
+	.banner-left-col h1{
+		font-size: 40px;
+	}
+
+	/*Banner End*/
+
+	/*Feature Product Start*/
+	.feature-product{
+		padding: 50px 0;
+	}
+	/*Feature Product End*/
+
+	/*Second Banner Start*/
+	.left-second-banner-col h1{
+		font-size: 60px;
+	}
+
+	.left-second-banner-col h2{
+		font-size: 32px;
+	}
+	/*Second Banner End*/
+
+	/*Most Pop Start*/
+	.most-popular{
+		padding: 50px 0;
+	}
+	/*Most Pop End*/
+
+	/*Suppor start*/
+	.support{
+		padding: 30px 0;
+	}
+
+	.single-support h2{
+		letter-spacing: 1.5px;
+		margin-left: 22px;
+		margin-right: 22px;
+		font-size: 16px;
+	}
+	/*Support End*/
+
+	/*Trending Product start*/
+	.single-feature{
+		margin-top: 50px;
+	}
+
+/*Trending Product End*/
+
+/*Journal Start/*/
+.journal{
+	padding: 50px 0;
+}
+
+/*Journal end*/
+
+/*Follow us start*/
+
+.follow{
+	padding: 50px 0 40px 0;
+}
+
+/*Follow us end*/
+
+/*Footer Start*/
+.footer-social-icon i{
+	color: black;
+	padding: 8px;
+	background-color: #fff;
+	transition: 0.3s;
+}
+
+.footer-social-icon i:hover{
+	color: #fff;
+	background-color: #ff5353;
+}
+footer{
+	padding: 50px 0 0 0 ;
+}
+/*Footer End*/
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+		/*Footer start*/
+
+	.get-it-on{
+		font-size: 10px;
+	}
+
+	.mobile-icon i{
+		font-size: 15px;
+	}
+
+	.play-store{
+		font-size: 10px;
+	}
+
+	/*Footer End*/
+
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+	/*Footer start*/
+
+	.get-it-on{
+		font-size: 10px;
+	}
+
+	.mobile-icon i{
+		font-size: 15px;
+	}
+
+	.play-store{
+		font-size: 10px;
+	}
+
+	/*Footer End*/
+
+}	
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
+
